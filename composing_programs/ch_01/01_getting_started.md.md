@@ -53,13 +53,3 @@ One of the most important skill as a dev would be **interpreting and diagnosing 
 
 
 --- 
-
-Roy
-
-1 Crosby Anhs partner
-
-When and where would be a good time to meet you and handle the paper work tomorrow, would 5 30 be alright
-
-I just got a question about the contract, the inclusions part looks like its not done, Ima be honest, Anh loves the kitchen and we're just want to make sure the kitchen appliances is also included
-
-Lastly just a heads up, the valuer from the bank and the Pest/Building inspector may contact you shortly to arrange inspections
