@@ -59,7 +59,7 @@ It evaluates the operator and operands expressions, then applied the named funct
 
 \***NameEvaluation** a name evaluate to the value bound to that name in the earliest frame of the current environment in which that name is found
 
-### Examples
+> Examples section goes through the function calling process step by step
 
 ## 3. Local names
 
