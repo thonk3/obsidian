@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "aafa2c8cca825874",
+        "id": "ce40e89503bc5e09",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ch_01/03_new_functions.md.md",
+            "file": "ch_01_functions/05_control.md.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 160.50350189208984
+    "width": 346.5068016052246
   },
   "right": {
     "id": "7a7b0c13a1840944",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch_01/03_new_functions.md.md",
+                "file": "ch_01_functions/05_control.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,13 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "aafa2c8cca825874",
+  "active": "ce40e89503bc5e09",
   "lastOpenFiles": [
-    "ch_01/03_new_functions.md.md",
-    "ch_01/02_elements_of_prog.md.md",
-    "ch_01/04_designing_functions.md.md",
-    "ch_01/05_placeholder.md",
-    "ch_01/01_getting_started.md.md",
-    "menu.md"
+    "ch_01_functions/05_control.md.md",
+    "ch_01_functions/06_higher_order_func.md.md",
+    "TODO.md.md",
+    "ch_01_functions/04_designing_functions.md.md",
+    "ch_02_data/21_intro.md.md",
+    "menu.md",
+    "ch_01_functions/07_recursive_func.md.md",
+    "ch_02_data/22_placeholder.md",
+    "ch_01_functions/03_new_functions.md.md",
+    "ch_01_functions/01_getting_started.md.md"
   ]
 }

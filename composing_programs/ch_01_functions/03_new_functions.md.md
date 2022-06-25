@@ -63,12 +63,47 @@ It evaluates the operator and operands expressions, then applied the named funct
 
 ## 3. Local names
 
+This context, Local names points to the parameter names
+
+> This principle - the meaning of a function should be independent of the parameter names chosen by its author
+> The parameter names of the function is **local** to the body of the function
+
+The scope of the local name (parameter) is limited to the body of the user-defined function which defined it
+
+When the name is no longer accessible, its out of scope
+
 ## 4. choosing names
+
+Well chosen names are **essential** for the human interpret-ability of the code.
+
+The following are "guidelines" from [Style guide for python code](https://peps.python.org/pep-0008/), not necessarily enforced but a set of conventions
+
+1. functions are lowercase, seperated by underscores
+2. functions names typically reflect the operations of the arguements or the name of the quantity of the result
+3. parameter names should reflect the role of the parameter in the function
+4. single letter parameters are ok if their role are oblivious
 
 ## 5. Function as abstractions
 
+- This shows how powerful user-defined functions are as we can write functions that are depending on other functions without needing to know how it is defined
+	- as there are many ways to do a certain thing
+- function definition should be able suppress detail
+
+> You dont need to know how a car engine is built to understand it is driving the car
+
+- Programmers should now need to know how the function is used in order to use it
+> **Aspects of a functional abstraction** To master the use of a functional abstraction, its often useful to consider its 3 core attributes
+> - The domain - set of arguments it can take
+> - the range - set of value it can return
+> - the intent - relationship it computes between I/O (and any side effects it might generate)
+
 ## 6. operators
 
-[1.4 Designing functions](./04_designing_functions.md)
+> Misc operators
+> > [Operators](https://www.youtube.com/embed/gDsdcF1bpBs?rel=0&showinfo=0&enablejsapi=1)
+>
+> seems simple enough skip this for now
+
+[1.4 Designing functions](04_designing_functions.md.md)
 
 ---

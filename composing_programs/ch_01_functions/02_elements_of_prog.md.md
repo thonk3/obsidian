@@ -129,4 +129,4 @@ Pure functions are restricted that they cannot have side effect or changed behav
 - simpler to test, same arguments always returns same value
 - essential `ch4`  
 
-[1.3 defining new functions](03_new_functions.md)
+[1.3 defining new functions](03_new_functions.md.md)
