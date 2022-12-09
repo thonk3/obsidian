@@ -1,0 +1,10 @@
+{
+  "spellcheck": true,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "attachmentFolderPath": "/img",
+  "legacyEditor": false,
+  "livePreview": true,
+  "vimMode": true,
+  "alwaysUpdateLinks": true
+}

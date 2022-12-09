@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "1c26a1dcfc9acbec",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7d3b05673b95f99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4bcb34991700b9c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "composing_programs/Composing Programs Index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "97ed08e476b5ae5a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3d723ab0fa09651",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf69221cd4257980",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "931bae97a91876d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b183550580549edf",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ef04f560f8368625",
+    "type": "split",
+    "children": [
+      {
+        "id": "be467e33a6f2a164",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7582419d5aeeb0e9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "composing_programs/Composing Programs Index.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c72e1f520f8ea7ca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "composing_programs/Composing Programs Index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ea54055db52dd3cd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c3c25079d4f95b79",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "composing_programs/Composing Programs Index.md"
+              }
+            }
+          },
+          {
+            "id": "13cdadc8ad47c362",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "4bcb34991700b9c4",
+  "lastOpenFiles": [
+    "composing_programs/ch_01_functions/01_getting_started.md.md",
+    "obsidian/obsidian plugins.md",
+    "software/Software Tooling.md",
+    "software/Cygwin.md",
+    "max-ang-3-prj-basics.md",
+    "Maximilion - Complete Angular 20223.md",
+    "max-ang-2-basics.md",
+    "max-ang-1-getting-started.md",
+    "angular.md",
+    "software/software index.md"
+  ]
+}

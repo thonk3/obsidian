@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "e9a10d05477eeab6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce40e89503bc5e09",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "TODO.md.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "19cb40542c1e483c",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7f73cab07a24b2b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6922e46d8fabb137",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b9621a463088021a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 346.5068016052246
+  },
+  "right": {
+    "id": "7a7b0c13a1840944",
+    "type": "split",
+    "children": [
+      {
+        "id": "14b9f0c9e56b2f0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "223ce68c298823ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TODO.md.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ce40e89503bc5e09",
+  "lastOpenFiles": [
+    "TODO.md.md",
+    "ch_01_functions/05_control.md.md",
+    "ch_01_functions/04_designing_functions.md.md",
+    "ch_01_functions/06_higher_order_func.md.md",
+    "ch_02_data/21_intro.md.md",
+    "menu.md",
+    "ch_01_functions/07_recursive_func.md.md",
+    "ch_02_data/22_placeholder.md",
+    "ch_01_functions/03_new_functions.md.md",
+    "ch_01_functions/01_getting_started.md.md"
+  ]
+}

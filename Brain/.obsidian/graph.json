@@ -1,0 +1,37 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:daily_what",
+      "color": {
+        "a": 1,
+        "rgb": 3896311
+      }
+    },
+    {
+      "query": "path:obsidian",
+      "color": {
+        "a": 1,
+        "rgb": 9130720
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0.2,
+  "nodeSizeMultiplier": 1.18252157170363,
+  "lineSizeMultiplier": 2.50230335876774,
+  "collapse-forces": true,
+  "centerStrength": 0.490265991585253,
+  "repelStrength": 10,
+  "linkStrength": 0.932895956642659,
+  "linkDistance": 30,
+  "scale": 0.4296780914342547,
+  "close": false
+}
