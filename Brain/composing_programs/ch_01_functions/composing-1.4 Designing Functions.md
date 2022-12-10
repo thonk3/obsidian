@@ -1,5 +1,3 @@
-# Designing functions
-
 Functions are essential building blocks of a programs
 So far, its discussed the formal properties of a functions and how they are applied
 
@@ -35,7 +33,5 @@ help(add)
 
 An outcome of defining general functions is the introduction of additional args, which could be difficult to read.
 
-
-[1.5 Control](05_control.md.md)
-
----
+[[composing-1.5 Control]]
+back to [[Composing Programs Index]]

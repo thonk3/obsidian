@@ -40,6 +40,5 @@ variable assignment within the scope of functions
 ## 6. Testing
 
 
-[1.6 Higher Order functions](06_higher_order_func.md.md)
-
----
+[[composing-1.6 Higher-order functions]]
+back to [[Composing Programs Index]]

@@ -10,7 +10,7 @@ Every powerful language has these three mechanisms:
 
 We deal with 2 elements `function` and `data`
 
-## 1. Expressions
+## 1.2.1 Expressions
 
 > [youtube - expressions](https://www.youtube.com/watch?v=vguCdBIHQmI)
 > explaining computational expressions in the concept of maths
@@ -23,7 +23,7 @@ Lets begin with the simplest `Primitive expressions`, one of such is just a simp
 
 These expressions can be combined with mathematical operators which the compiler will evaluate
 
-## 2. Call Expressions
+## 1.2.2 Call Expressions
 > [youtube - functions, objects and expression](https://www.youtube.com/watch?v=2SopsFYlGr4)
 > General overview of what we went through the previous chapter
 > 
@@ -43,70 +43,49 @@ basic of functions or Call expressions, it applies a function to some arguments
 	2. can extend to nested expressions, where the elements can be compound expressions (other functions).
 	3. these expressions are unified and easier to deduce via their name
 
-## 3. Importing Library functions
+## 1.2.3 Importing Library functions
 
-Python defines a large number of functions but **NOT** all the names are available by default. 
+Python defines a large number of functions but **NOT** all the names are available by default.
 Functions are organised into modules, creating the Python Library, and they need to be `import`ed to be used
-
 ```python
 from math import sqrt
 sqrt(256)
 # 16.0
 ```
-
-`import` designate a module name, and then list the named attribute of that module to import (`sqrt`) 
-
+`import` designate a module name, and then list the named attributes of that module to import (`sqrt`) 
 [Py3 Library docs](https://docs.python.org/3/library/index.html)
 
-## 4. Names and the Environment
+## 1.2.4 Names and the Environment
 
 > [youtube - names, assignment, user defined function](https://www.youtube.com/watch?v=JinchX1Vn-I)
-> 
-> using built in library names
-> assigning called expressions into user defined names
-> using `def` to create user defined functions
+> - using built in library names
+> - assigning called expressions into user defined names
+> - using `def` to create user defined functions
 >
 > Types of expressions
 > - primitive - numeral, name, string
 > - call expressions
 
-critical aspect of programming is how it use names to refer to computational objects
+Critical aspect of programming is how it use names to refer to computational objects. If a value has been given a name, we say **the name binds to the value**
 
-In Python, names can be assign values or via import
+In Python, names can be assigned with values or retrieve via `import` statements
 
-the `=` is called the assignment operator
+`Assignnment` is the simplest form of abstraction. It allows the simple use of `names` to **refer to the results** of compound operations.
+The ability to binding `names` to values, to later retrieve those value means the `interpreter` must maintain some sort of memory.
+This is called an `environment`
 
-> I think its generally ok to speed through this 
+> In most languages `names` are refeered to as `variables`
 
-One different thing is you can reassign names form imported functions
+## 1.2.5 Evaluating nested expressions
 
-```python
-from math import max
-
-max = 7
-# this is legal wtf
-# i guess its the same as import x as y
-```
-
-another strange thing is the single statement assignment
-
-```python
-a, b, c = 3, 2, 1
-
-a+c 
-# 4
-```
-
-## 5. Evaluating nested expressions
-
-Goal of this section is to isolate issues about thinking procedurally 
-
-So in nested expressions the interpreter is following a procedure:
+Goal of this chapter is to isolate issues about **thinking procedurally** 
+Hence, in evaluating nested expressions the interpreter is following a procedure:
 1. evaluate the operator then operand subexpressions
-2. I dont get the description here but generally evaluate the sunexpressions /operand to its simplest value
+2. I dont get the description here but generally evaluate the subexpressions /operand to its simplest value
 
+> The evaluation procedure is sometimes `recursive` in nature
 
-## 6. Non-Pure print
+## 1.2.6 Non-Pure print
 
 > [youtube - print and none](https://www.youtube.com/watch?v=jNYc5Gdwo3c)
 >
@@ -117,16 +96,15 @@ So in nested expressions the interpreter is following a procedure:
 > - Pure function v non-pure function
 
 Now we are comparing 2 Types of functions
-- Pure 
-- Non Pure
-
-**Pure functions**  have some input and returning some output using the input. These have no side effect as a product of computing a value
-
-**Non pure functions** in addition to returning a value, it can cause a side effect
+- Pure
+	- have some `input` and returning some `output` using the `input`
+	- These have **no side effect** as a product of computing a value
+- Non Pure - in addition to returning a value, it can cause a side effect
 
 Pure functions are restricted that they cannot have side effect or changed behaviour over time. These restrictions are extremely beneficial as 
 - it can be reliably composed into compound call expressions (nested expressions)
 - simpler to test, same arguments always returns same value
-- essential `ch4`  
+- `ch4` will show pure functions are essential in writing `concurrent programs`, where multiple call expressions may be evaluated simultaneously
 
-[1.3 defining new functions](03_new_functions.md.md)
+[[composing-1.3 Definingn New Functions]]
+back to [[Composing Programs Index]]

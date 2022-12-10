@@ -1,4 +1,3 @@
-# Defining new functions
 We have identified that programming languages consist of
 1. primitive number and arithmetic values and functions
 2. nested functions
@@ -104,6 +103,5 @@ The following are "guidelines" from [Style guide for python code](https://peps.p
 >
 > seems simple enough skip this for now
 
-[1.4 Designing functions](04_designing_functions.md.md)
-
----
+[[composing-1.4 Designing Functions]]
+back to [[Composing Programs Index]]

@@ -49,7 +49,7 @@ One of the most important skill as a dev would be **interpreting and diagnosing 
 3. **Check your assumptions**: Interpreters always carry out the action correctly. When code behaviour does not match your assumptions, focus on verifying if that assumption is correct.
 4. **Consult Others**: ASK FOR HELP YOU DUM DUM
 
-[1.2 elements of programming](02_elements_of_prog.md.md)
-
+[[composing-1.2 Elements of Programming]]
+back to [[Composing Programs Index]]
 
 --- 
