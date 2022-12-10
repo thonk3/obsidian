@@ -1,4 +1,3 @@
-## My TODO notes of going through composing programs
 
 ## Chapter 1 TODO
 - [x] finish ch04
@@ -14,3 +13,8 @@
 - [ ] low priority
 	- [ ] chapter 4 - defining functions video
 	- [ ] chapter 3 - operator video
+
+
+--- Misc info
+- [ ] ch04
+	- [ ] Function vid might needs a review

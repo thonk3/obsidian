@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:daily_what",
@@ -20,6 +20,13 @@
         "a": 1,
         "rgb": 9130720
       }
+    },
+    {
+      "query": "composing",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
     }
   ],
   "collapse-display": false,
@@ -32,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 0.932895956642659,
   "linkDistance": 30,
-  "scale": 0.4296780914342547,
-  "close": false
+  "scale": 0.17874521860401968,
+  "close": true
 }

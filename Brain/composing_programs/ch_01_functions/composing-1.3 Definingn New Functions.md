@@ -1,53 +1,34 @@
-We have identified that programming languages consist of
-1. primitive number and arithmetic values and functions
-2. nested functions
-3. binding names to values **gives a form of** `abstraction`
+In most powerful programming languages, they must consist these elements
+1. Numbers and Arithmetic operations are `primitive` built-in data values and functions
+2. Nested functions provides a mean of `combining` operations
+3. binding names to values is a limited form of `abstraction`
 
-**Defining functions**
-
-python functions consist of the keywork `def` that inidates a `<name>` and a list of named `<parameters>`, 
-then a `return` statement in the function body, specifying the `<return expression>` of the function
-
-```
-def <name>(<parameters>):
-	return <return expression>
-```
-
-> weird they did not elaborate in python indentation
-> Im just gonna do dot points now as these are pretty standard
-> 
-> > [youtube - functions](https://www.youtube.com/embed/j3uTRrPBrKk)
-> - although seem overly convoluted, it may be extremely useful when starting out to understand the order of execution in things'
-> - fairly wordy and hard to catch but it is very well described
-
-- possible to use functions ass building blocks in other functions
+On _function definitions_, this is a powerful `abstraction` technique where a `name` can be bound to a compound operation
 ```python
-def add(a ,b):
-	return a + b
-
-def square(a):
-	return a*a
-
-def sum_square(x, y):
-	return add(square(x), square(y))
+def <name>(<parameters>):
+return <return expression>
 ```
+`python` functions consist of the keywork `def` that initiate a `<name>` and a list of named `<parameters>`.
+then a `return` statement in the function body, whis is an expression to be evaluated
 
+> [youtube - functions](https://www.youtube.com/embed/j3uTRrPBrKk)
+> - although seem overly convoluted, it may be extremely useful when starting out to understand the order of execution in things
 
-## 1. Environments
+understanding how to properlly format your functions is ideal, as each and every function can be used as building blocks of your application
 
-so now **what if a formal parameter has the same name as a built-ion function?** can 2 functions share same names without confusion
+## 1.3.1 Environments
 
-> ah so now they are introducing scope as frames
->
-> > [youtube - environment diagrams](https://www.youtube.com/embed/gyk0Qutui1s)
- straight forward demo of scope and named function reassignment
- >
- > everything is relatively fine, but they are bringing some unfamiliar terms in congusing me
+**what if a formal parameter has the same name as a built-in function?** can 2 functions share same names without confusion
 
-- more of an explanation of the Python Tutor page explaining global frames, local frames
-- brief talk on **function signature** that is explaining the above function where multiple func with the same name can exist because of different number of parameters
+> [youtube - environment diagrams](https://www.youtube.com/embed/gyk0Qutui1s)
+> - `scope` introduced as `frames`
+> - straight forward demo of `scope` and named function reassignment
 
-## 2. Calling User-Defined functions
+`An Environment`
+
+-- TODO 
+
+## 1.3.2 Calling User-Defined functions
 
 with any function call (user defined or built in) the interpreter follows a computational process.
 It evaluates the operator and operands expressions, then applied the named function to the to the resulting arguments.
@@ -60,7 +41,7 @@ It evaluates the operator and operands expressions, then applied the named funct
 
 > Examples section goes through the function calling process step by step
 
-## 3. Local names
+## 1.3.3 Local names
 
 This context, Local names points to the parameter names
 
@@ -71,7 +52,7 @@ The scope of the local name (parameter) is limited to the body of the user-defin
 
 When the name is no longer accessible, its out of scope
 
-## 4. choosing names
+## 1.3.4 choosing names
 
 Well chosen names are **essential** for the human interpret-ability of the code.
 
@@ -82,7 +63,7 @@ The following are "guidelines" from [Style guide for python code](https://peps.p
 3. parameter names should reflect the role of the parameter in the function
 4. single letter parameters are ok if their role are oblivious
 
-## 5. Function as abstractions
+## 1.3.5 Function as abstractions
 
 - This shows how powerful user-defined functions are as we can write functions that are depending on other functions without needing to know how it is defined
 	- as there are many ways to do a certain thing
@@ -96,7 +77,7 @@ The following are "guidelines" from [Style guide for python code](https://peps.p
 > - the range - set of value it can return
 > - the intent - relationship it computes between I/O (and any side effects it might generate)
 
-## 6. operators
+## 1.3.6 operators
 
 > Misc operators
 > > [Operators](https://www.youtube.com/embed/gDsdcF1bpBs?rel=0&showinfo=0&enablejsapi=1)
