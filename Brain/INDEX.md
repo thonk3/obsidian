@@ -2,7 +2,7 @@
 main index of me brain vault
 
 - [[software index]]
-- [[start_here_ |obsidian stuff]]
+- [[Obsidian Index |obsidian stuff]]
 - [[CTCI INDEX|CTCI]]
 - [[Journal database thing]] (TODO)
 
