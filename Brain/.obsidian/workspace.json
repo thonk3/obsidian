@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0772d878c39989a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "freecodecamp/freecodecamp - git for professionals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8ed2c2babff18fee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular/Max Complete Angular/Maximilion Complete Angular Index.md",
+                "file": "Ang-Max-02 The Basics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -79,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -99,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Angular/Max Complete Angular/Maximilion Complete Angular Index.md",
+                "file": "Ang-Max-02 The Basics.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Angular/Max Complete Angular/Maximilion Complete Angular Index.md",
+                "file": "Ang-Max-02 The Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Angular/Max Complete Angular/Maximilion Complete Angular Index.md"
+                "file": "Ang-Max-02 The Basics.md"
               }
             }
           },
@@ -160,15 +148,15 @@
   },
   "active": "8ed2c2babff18fee",
   "lastOpenFiles": [
-    "INDEX.md",
-    "Git.md",
-    "approach to writing.md",
-    "approach to reading.md",
-    "Angular/Max Complete Angular/max-ang-1-getting-started.md",
+    "Angular/Max Complete Angular/Ang-Max-01 Getting Started.md",
+    "Angular/Max Complete Angular/Maximilion Complete Angular Index.md",
+    "Ang-Max-02 The Basics.md",
     "Angular/Max Complete Angular/max-ang-2-basics.md",
-    "freecodecamp/freecodecamp.md",
-    "freecodecamp/freecodecamp - git for professionals.md",
-    "freecodecamp/freecodecamp - git.md",
-    "obsidian/Obsidian-Plugins.md"
+    "Angular/Tour Of Heroes/Ang-Tour-3 Create a Feature Component.md",
+    "Brain Index.md",
+    "software/software index.md",
+    "obsidian/Obsidian Index.md",
+    "CTCI/CTCI INDEX.md",
+    "composing_programs/Composing Programs Index.md"
   ]
 }

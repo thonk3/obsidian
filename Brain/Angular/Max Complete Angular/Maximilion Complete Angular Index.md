@@ -1,5 +1,5 @@
-- [x] 1. [[max-ang-1-getting-started|Getting Started]]
-- [ ] 2. [[max-ang-2-basics|The Basics]]
+- [x] 1. [[Ang-Max-01 Getting Started|Getting Started]]
+- [ ] 2. [[Ang-Max-02 The Basics|The Basics]]
 - [ ] 3. [[max-ang-3-prj-basics|Project - The Basic]]
 - [ ] 4. [[max-ang-4-debugging|Debugging]]
 - [ ] 5. [[max-ang-5-components-data-binding|Components & Data binding deep dive]]
@@ -8,3 +8,6 @@
 - [ ] 8. [[max-ang-8-prj-directives|Project - directives]]
 - [ ] 9. [[max-ang-9-services-DI|Using services & dependency Injection]]
 - [ ] 10. [[max-ang-10-prjk-services-DI|Project - services & DI]]
+
+---
+#index 
