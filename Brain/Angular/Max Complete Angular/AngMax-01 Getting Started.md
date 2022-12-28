@@ -78,7 +78,7 @@ basic setup with
 
 - snapshot zip fo help with being stuck / strange errors
 
-[[Ang-Max-02 The Basics]]
+[[AngMax-02 The Basics]]
 back to [[Maximilion Complete Angular Index]]
 
 ---
