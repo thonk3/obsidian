@@ -16,7 +16,7 @@ So far, its discussed the formal properties of a functions and how they are appl
 > These guidelines improve the readability of code, reduce errors and often minimize the code written.
 > Decomposing a complex task is a skill that takes time to master
 
-## 1. Documentation
+## 1.4.1 Documentation
 
 Funciton definition often include documentation describing the function.
 `docstring` are conventionally triple quoted in the code
@@ -29,7 +29,7 @@ help(add)
 
 `docstring` [guidelines](https://peps.python.org/pep-0257/)
 
-## 2. Default Argument Values
+## 1.4.2 Default Argument Values
 
 An outcome of defining general functions is the introduction of additional args, which could be difficult to read.
 

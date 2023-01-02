@@ -106,5 +106,5 @@ Pure functions are restricted that they cannot have side effect or changed behav
 - simpler to test, same arguments always returns same value
 - `ch4` will show pure functions are essential in writing `concurrent programs`, where multiple call expressions may be evaluated simultaneously
 
-[[composing-1.3 Definingn New Functions]]
+[[composing-1.3 Defining New Functions]]
 back to [[Composing Programs Index]]

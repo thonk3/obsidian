@@ -24,41 +24,46 @@ understanding how to properlly format your functions is ideal, as each and every
 > - `scope` introduced as `frames`
 > - straight forward demo of `scope` and named function reassignment
 
-`An Environment`
+The `Environment` where your `expression` is evaluated consist of a `sequence of frames` (or boxes) 
+- each `frame` contains `bindings`
+- each associates a `name` with its corresponding value
+- there is a `global frame`
+- `import` and `assignment` add entries to the frame of the current environment
 
--- TODO 
+> This is such a convoluted way of describing scope
+> But I guess it is difficult to describe the concept of scope in general, I learned it via trial and error
 
 ## 1.3.2 Calling User-Defined functions
 
-with any function call (user defined or built in) the interpreter follows a computational process.
+A function evaluation follows a computational process:
 It evaluates the operator and operands expressions, then applied the named function to the to the resulting arguments.
 
-> ok this introduces the local frame
+A `user-defined function` introduces a second `local frame` - only accessible to the function
+Its arguments are 
+1. bind to `names` only available in the new `local frame`
+2. executes the body of the functions
+
 > - **local** to the function's frame (scope) where the arguments are only accessible to that function
-> - this function local are evaluated and consist of 2 frames - the local and globall
+> - this `local` frame has access to other `bindings` of the local frame
 
-\***NameEvaluation** a name evaluate to the value bound to that name in the earliest frame of the current environment in which that name is found
-
-> Examples section goes through the function calling process step by step
+`NameEvaluation` a name evaluate to the value bound to that name in the earliest frame of the current environment in which that name is found
 
 ## 1.3.3 Local names
 
-This context, Local names points to the parameter names
-
 > This principle - the meaning of a function should be independent of the parameter names chosen by its author
-> The parameter names of the function is **local** to the body of the function
+> The parameter names of the function is `local` to the body of the function
 
 The scope of the local name (parameter) is limited to the body of the user-defined function which defined it
 
-When the name is no longer accessible, its out of scope
+When the name is no longer accessible, its `out of scope`
 
 ## 1.3.4 choosing names
 
-Well chosen names are **essential** for the human interpret-ability of the code.
+Well chosen names are `essential` for the human interpret-ability of the code.
 
 The following are "guidelines" from [Style guide for python code](https://peps.python.org/pep-0008/), not necessarily enforced but a set of conventions
 
-1. functions are lowercase, seperated by underscores
+1. functions are `lowercase`, seperated by underscores
 2. functions names typically reflect the operations of the arguements or the name of the quantity of the result
 3. parameter names should reflect the role of the parameter in the function
 4. single letter parameters are ok if their role are oblivious
@@ -67,15 +72,16 @@ The following are "guidelines" from [Style guide for python code](https://peps.p
 
 - This shows how powerful user-defined functions are as we can write functions that are depending on other functions without needing to know how it is defined
 	- as there are many ways to do a certain thing
-- function definition should be able suppress detail
-
+- Function definition should be able to suppress details
 > You dont need to know how a car engine is built to understand it is driving the car
 
-- Programmers should now need to know how the function is used in order to use it
-> **Aspects of a functional abstraction** To master the use of a functional abstraction, its often useful to consider its 3 core attributes
-> - The domain - set of arguments it can take
-> - the range - set of value it can return
-> - the intent - relationship it computes between I/O (and any side effects it might generate)
+Programmers should `not` need to know how the function is used in order to use it
+
+`Aspects of a functional abstraction` To master the use of a functional abstraction, its often useful to consider its 3 core attributes
+- The domain - set of arguments it can take
+- the range - set of value it can return
+- the intent - relationship it computes between I/O (and any side effects it might generate)
+> These attributes do not specify how the intent is carried out, that information is `abstracted`
 
 ## 1.3.6 operators
 
