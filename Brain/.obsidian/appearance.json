@@ -2,5 +2,6 @@
   "accentColor": "",
   "cssTheme": "Everforest",
   "nativeMenus": false,
-  "translucency": true
+  "translucency": true,
+  "textFontFamily": "Source Code Pro"
 }

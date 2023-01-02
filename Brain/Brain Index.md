@@ -1,8 +1,6 @@
 
 main index of me brain vault
-
 - [[Obsidian Index |obsidian stuff]]
-- [[Journal database thing]] (TODO)
 
 ## Software Stuff
 - [[Software Tooling]]

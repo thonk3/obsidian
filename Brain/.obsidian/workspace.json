@@ -4,30 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6b6ec55c66473e56",
+        "id": "aacbf9c7133dd6e0",
         "type": "tabs",
         "children": [
           {
-            "id": "b1b0ef10f4a3bd23",
+            "id": "8879180100c6ec15",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
+              "type": "markdown",
+              "state": {
+                "file": "composing_programs/Composing Programs Index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "025b03dbe47c404e",
+            "id": "b599a59544f854aa",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "composing_programs/ch_01_functions/composing-1.5 Control.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1,
-        "stacked": true
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -56,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "composing_programs/ch_01_functions/composing-1.5 Control.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -109,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "composing_programs/ch_01_functions/composing-1.5 Control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "composing_programs/ch_01_functions/composing-1.5 Control.md"
+              }
             }
           },
           {
@@ -152,23 +162,23 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
+      "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "025b03dbe47c404e",
+  "active": "b599a59544f854aa",
   "lastOpenFiles": [
-    "Angular/Max Complete Angular/Maximilion Complete Angular Index.md",
-    "Angular/Max Complete Angular/AngMax-01 Getting Started.md",
-    "Angular/Max Complete Angular/AngMax-02 The Basics.md",
-    "Angular/Max Complete Angular/AngMax-03-Project Basics.md",
+    "TODO board.md",
+    "composing_programs/ch_01_functions/composing-1.5 Control.md",
+    "composing_programs/ch_01_functions/composing-1.4 Designing Functions.md",
+    "composing_programs/ch_01_functions/composing-1.3 Defining New Functions.md",
+    "composing_programs/Composing Programs Index.md",
     "TODO.md",
-    "CTCI/CTCI INDEX.md",
-    "CTCI/crackcode-4-Before the interview.md",
-    "crackcode-Preparation map.md",
-    "CTCI/crackcode-1-Interview process.md",
-    "composing_programs/ch_01_functions/composing-1.3 Definingn New Functions.md"
+    "Brain Index.md",
+    "obsidian/Obsidian Index.md",
+    "ticket one.md",
+    "Untitled.canvas"
   ]
 }
