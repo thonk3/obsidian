@@ -87,9 +87,75 @@ string interpolation conditions
 - Cannot use multiline expressions
 
 ### Property Binding
+Property binding allow you to dynamically bind a property to
+
+> Consider situations where its best to use `string interpolation` vs `property binding`
+
+
 `[]` indicates propery binding
-- dynamically bind a value to a property in DOM
+- dynamically bind a value to a property in DOM\
+
+This example binds a boolean value to the `disabled` property of the DOM
+```html
+<button
+	[disabled]="!disableFlag"> Add </button>
+```
 
 ### Events  Binding
 
+> Walk through how to add a button to create a new server
 
+`()` indicates event binding
+- built in with angular, can bind to all events relating to the html tag
+
+This examples binds a function call into a button `onClick` event attribute
+```html
+<button
+	[disabled]="!disableFlag"
+	(click)="clickFunction()"> Add </button>
+```
+
+### Bindable props and events
+
+- To find out which props or events of `html` elements you can use
+- good idea is to `console.log` out the element too see what props/events it offers
+- or look up documentation
+
+### Passing and Using Data with Event Binding
+
+`$event` data emited by the event
+- using in tandem with `(input)` triggers every keydown
+- reserved keyword which gave us access to the event data
+
+This examples bind a function call to the `on input change` event for the `input` elements.
+Which uses the `$event` binding to pass the emited event object to the function
+```html
+<input
+  type="text"
+  (input)="onUpdateServerName($event)"/>
+```
+
+### Two-way data binding
+
+> NOTE:
+> `FormsModule` is required for two-way binding
+> - need to enable `ngModel` directive, by adding `FormsModule` to the `imports[]` array
+> - `FormsModule` is imported form `@angular/Forms`
+
+- combination of property and event binding
+- syntax `[()]` using the `ngModle` directive
+
+### Combining many forms of Data Binding
+> Walk through, enable the "add" button to add a new server item
+
+### Practice binding
+
+1. add input field which updates `username` prop every keystroke using `two way binding`
+2. output username property via `string interpolation`
+3. add `button` whis is only clickable if `username` is not empty string
+4. `onClick` - reset the `username to empty string`
+
+> work done in `01_basics/practicing-components2`
+> NOTE:
+> - over engineered with input calling a checker function
+> - simpler method is to bind the boolean to check `username` within the `[disabled]` prop in `button`

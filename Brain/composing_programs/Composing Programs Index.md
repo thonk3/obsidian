@@ -1,4 +1,4 @@
-
+composing-2.2 Data Abstraction
 > Lets do this thing that Hamish has been raving about [Composing programs](https://composingprograms.com)
 
 ## 1. Building abstractions with functions
@@ -32,8 +32,9 @@
 [[composing-4.1 Introduction|4.1 Introduction]]
 [[composing-4.2 Implicit Sequences|4.2 Implicit Sequences]]
 [[composing-4.3 Declarative Programming|4.3 Declarative Programming]]
-[[composing-4.4 Logic Programming|4.5 Logic Programming]]
-[[composing-4.6 Unification|4.6 Unification]]
+[[composing-4.4 Logic Programming|4.4 Logic Programming]]
+[[composing-4.5 Unification|4.5 Unification]]
+[[composing-4.6 Distributed Computing|4.6 Distributed Computing]]
 [[composing-4.7 Distributed Data Processisng|4.7 Distributed Data Processisng]]
 [[composing-4.8 Parallel Computing|4.8 Parallel Computing]]
 

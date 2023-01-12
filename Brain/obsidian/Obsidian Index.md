@@ -6,7 +6,7 @@ First with some basics youtube videos I went through
 - [[PeepnBrick - achieve more while studying less]]
 
 ---
-[[Brain Index|return to main INDEX]]
+[[0. Brain Index|return to main INDEX]]
 
 ---
 #index
