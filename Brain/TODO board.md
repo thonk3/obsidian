@@ -13,6 +13,7 @@ kanban-plugin: basic
 
 - [ ] #### Complete Composing chapter 1<br>- [x] [[composing-1.4 Designing Functions]]<br>- [x] [[composing-1.5 Control]]<br>- [ ] [[composing-1.6 Higher-order functions]]<br><br>@{06-Jan-2023}
 - [ ] #### Find a way to practice RxJs
+- [ ] #### Take notes on the DOM<br><br>re - [[Document Object Model]]<br><br>@{20-Jan-2023}
 
 
 ## In Progress (3)

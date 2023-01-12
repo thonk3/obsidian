@@ -4,36 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "1c144a59f2f784e8",
+        "id": "647fa29df7cda589",
         "type": "tabs",
         "children": [
           {
-            "id": "8879180100c6ec15",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "TODO board.md"
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "1a0eeee0cbebad21",
+            "id": "12d53fc9bb37a5fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular/Max Complete Angular/AngMax-02 The Basics.md",
+                "file": "Angular/Max Complete Angular/AngMax-03-Project Basics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -62,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "02 basic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ef04f560f8368625",
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Angular/Max Complete Angular/AngMax-02 The Basics.md",
+                "file": "Angular/Max Complete Angular/AngMax-03-Project Basics.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Angular/Max Complete Angular/AngMax-02 The Basics.md",
+                "file": "Angular/Max Complete Angular/AngMax-03-Project Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Angular/Max Complete Angular/AngMax-02 The Basics.md"
+                "file": "Angular/Max Complete Angular/AngMax-03-Project Basics.md"
               }
             }
           },
@@ -157,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,17 +156,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a0eeee0cbebad21",
+  "active": "12d53fc9bb37a5fc",
   "lastOpenFiles": [
-    "Angular/Max Complete Angular/Maximilion Complete Angular Index.md",
-    "Angular/Max Complete Angular/project_docs/01_basics working documentation.md",
-    "Angular/Max Complete Angular/AngMax-02 The Basics.md",
-    "Angular/Max Complete Angular/AngMax-03-Project Basics.md",
     "TODO board.md",
+    "Angular/Max Complete Angular/AngMax-03-Project Basics.md",
+    "Angular/Max Complete Angular/AngMax-02 The Basics.md",
+    "Document Object Model.md",
+    "Angular/Max Complete Angular/Maximilion Complete Angular Index.md",
+    "Angular/Max Complete Angular/AngMax-01 Getting Started.md",
+    "Angular/Max Complete Angular/project_docs/01_basics working documentation.md",
     "Observables in Angular.md",
     "Angular Observables overview.md",
-    "Angular/Angular Index.md",
-    "Angular/RxJs Primer.md",
-    "composing_programs/ch_01_functions/composing-1.6 Higher-order functions.md"
+    "Angular/Angular Index.md"
   ]
 }

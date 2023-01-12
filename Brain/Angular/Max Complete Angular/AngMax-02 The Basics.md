@@ -159,3 +159,97 @@ Which uses the `$event` binding to pass the emited event object to the function
 > NOTE:
 > - over engineered with input calling a checker function
 > - simpler method is to bind the boolean to check `username` within the `[disabled]` prop in `button`
+
+---
+
+## Directives
+
+- Directives are instructions in the DOM
+- `Components` are a kind of instructions in the DOM
+	- they instruct Ang to add the content/logic in to places via the `selector`
+Examples directives
+```html
+<p appTurnGreen>wasd</p>
+```
+```js
+@Directive({
+	selector: '[appTurnGreen]'
+})
+export class TurnGreenDirective{}
+```
+
+### Conditional rendering
+> Introducing to the `ngIf` directive
+> to only display the server added string after the button is clicked
+
+`ngIf` is a structural directive using to conditionally render something, it takes in a boolean value
+```html
+<p *ngIf="isCreated">Created server {{serverName}}</p>
+```
+introducing to `#` marker / local reference
+introducing to `<ng-template` can use to mark places in the DOM
+
+`<ng-template #noServer` is a component marking a local reference in the [[Document Object Model]] we want to show conditionally
+Which is trigger by the else condition within `*ngIf`
+```html
+<p 
+	 *ngIf="serverCreated; else noServer">
+		 Created server {{serverName}}
+ </p>
+
+<ng-template #noServer>
+  <p>No Server created</p>
+</ng-template>
+```
+
+> `else condition seems pretty weird`
+
+### Considiontal styling `ngStyle`
+we are now conditionally adding inline css via `[ngStyle]` (prop binding directive)
+- `ngStyle` itself is a `directive` and not related to property binding `[]`
+- adding the property binding syntax `[]` tells Ang we wants to bind some data into the directive `ngStyle`
+- the property takes a `js object`  where you provide the css object
+
+#### Applying css Classes `ngClass`
+while `ngStyle` allow you to dynamically add style
+`ngClass` allows you to dynamically change classes
+
+`[ngClass]` directive takes in json containing key value pairs where
+- `key` the class
+- `value` the condition
+
+### Outputting Lists
+`*ngFor` directive itterate through array and render list
+```js
+<li *ngFor='let i of Items'/>
+```
+
+> currently we can add items into the server array
+> but have not learn how to pass serverName into the `app-server`
+>
+> this will be explored soon in later section
+> - how to create our own props component which can be set outside of that component
+
+### Practice Directives
+1. add button to `display details`
+2. add p with any content
+3. toggle displaying of that paragraph with the button
+4. Log all button click into an array below (timestamp or an increment number)
+5. from 5th item, give all log items a blue bg via `ngStyle` and white text `ngClass`
+
+> work done in `01_basics/practicing-components3`
+> everything is the same, they used a number array instead of index
+
+### `ngFor` index
+Getting array index out of `ngFor` itteration directive
+
+```html\
+<p *ngFor='let ii of items; let i = index'/>
+```
+
+---
+
+## Section 2 Summary
+
+
+Up next [[AngMax-03-Project Basics]]
