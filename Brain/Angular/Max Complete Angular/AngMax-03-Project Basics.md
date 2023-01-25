@@ -59,4 +59,27 @@ ng g c shopping-list/shopping-list-edit
 ---
 ## Navigation Bar
 
-#todo vid part 49 end
+Set up Header nav `template html`
+
+---
+## Recipes
+### Creating `Recipes` MODEL
+
+- Creating a class model
+- can just effectively use vanilla ts to define the model
+
+### Adding content to RecipesComponent
+- now after finishing the model, we are using it in `RecipeList`
+- render the list via `ngFor`
+
+### Displaying Recipe Details
+
+> So far its just html templates layout changes
+> - I need to try to follow what the app is trying to do
+> - what concepts the lessons are trying to teach
+
+## Shopping List Component
+
+> More templates set up I presume
+
+up next [[AngMax-04-Debugging]]

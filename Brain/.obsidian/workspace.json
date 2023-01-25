@@ -4,20 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "647fa29df7cda589",
+        "id": "f023f7a9e7719bdb",
         "type": "tabs",
         "children": [
           {
-            "id": "12d53fc9bb37a5fc",
+            "id": "a86f9f703b865bc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular/Max Complete Angular/AngMax-03-Project Basics.md",
+                "file": "AngMax-05-Components-DataBinding.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
+            }
+          },
+          {
+            "id": "7d0a604708d28202",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -49,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "02 basic",
+                "query": "Context",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,11 +74,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ef04f560f8368625",
@@ -86,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Angular/Max Complete Angular/AngMax-03-Project Basics.md",
+                "file": "AngMax-05-Components-DataBinding.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Angular/Max Complete Angular/AngMax-03-Project Basics.md",
+                "file": "AngMax-05-Components-DataBinding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Angular/Max Complete Angular/AngMax-03-Project Basics.md"
+                "file": "AngMax-05-Components-DataBinding.md"
               }
             }
           },
@@ -143,30 +153,29 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": false,
+      "canvas:Create new canvas": true,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "12d53fc9bb37a5fc",
+  "active": "a86f9f703b865bc1",
   "lastOpenFiles": [
-    "TODO board.md",
-    "Angular/Max Complete Angular/AngMax-03-Project Basics.md",
-    "Angular/Max Complete Angular/AngMax-02 The Basics.md",
-    "Document Object Model.md",
-    "Angular/Max Complete Angular/Maximilion Complete Angular Index.md",
+    "Angular/Max Complete Angular/AngMax-04-Debugging.md",
+    "daily_what/2023-01-18.md",
+    "daily_what/2023-01-19.md",
+    "Context Switching.md",
+    "0. Brain Index.md",
+    "Packing.md",
+    "AngMax-06-Project Component & DataBinding.md",
     "Angular/Max Complete Angular/AngMax-01 Getting Started.md",
-    "Angular/Max Complete Angular/project_docs/01_basics working documentation.md",
-    "Observables in Angular.md",
-    "Angular Observables overview.md",
-    "Angular/Angular Index.md"
+    "AngMax-05-Components-DataBinding.md",
+    "TODO board.md"
   ]
 }
