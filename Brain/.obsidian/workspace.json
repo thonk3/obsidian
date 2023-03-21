@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AngMax-05-Components-DataBinding.md",
+                "file": "Picking a State structure.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AngMax-05-Components-DataBinding.md",
+                "file": "Picking a State structure.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AngMax-05-Components-DataBinding.md",
+                "file": "Picking a State structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AngMax-05-Components-DataBinding.md"
+                "file": "Picking a State structure.md"
               }
             }
           },
@@ -167,15 +167,43 @@
   },
   "active": "a86f9f703b865bc1",
   "lastOpenFiles": [
-    "Angular/Max Complete Angular/AngMax-04-Debugging.md",
-    "daily_what/2023-01-18.md",
-    "daily_what/2023-01-19.md",
-    "Context Switching.md",
-    "0. Brain Index.md",
-    "Packing.md",
-    "AngMax-06-Project Component & DataBinding.md",
-    "Angular/Max Complete Angular/AngMax-01 Getting Started.md",
-    "AngMax-05-Components-DataBinding.md",
-    "TODO board.md"
+    "React Index.md",
+    "Picking a State structure.md",
+    "React Context Docs.md",
+    "Brain Index.md",
+    "randomNotes.md",
+    "Projects Index.md",
+    "Daily Habit.md",
+    "NgRx Effects.md",
+    "NgRx Selectors.md",
+    "NgRx Reducers.md",
+    "Ngrx Index.md",
+    "NgRx Actions.md",
+    "magFP - 03 pure functions.md",
+    "magFP - 02 first class function.md",
+    "Mostly Adequate Guide.md",
+    "magFP - 01 what is this.md",
+    "Functional Programming Index.md",
+    "obsidian/Obsidian plugins.md",
+    "daily_what/2023-02-05.md",
+    "Exercise Plan.md",
+    "NgRx walkthrough.md",
+    "daily_what/2023-01-26.md",
+    "NilsNgRx - 9 - Reducers.md",
+    "NilsNgRx - 8 - Actions.md",
+    "NilsNgRx Index.md",
+    "NilsNgRx - 7 - State.md",
+    "Pasted image 20230218154421.png",
+    "Pasted image 20230218135212.png",
+    "Pasted image 20230218130933.png",
+    "final.gif",
+    "slide1.jpg",
+    "Pasted image 20230212223002.png",
+    "Pasted image 20230208200916.png",
+    "687474703a2f2f692e696d6775722e636f6d2f4869337a4e7a4a2e706e67.png",
+    "687474703a2f2f692e696d6775722e636f6d2f48486e6d6c61632e706e67.png",
+    "687474703a2f2f692e696d6775722e636f6d2f65416c4e62306a2e706e67 1.png",
+    "fixing ng-book",
+    "misc"
   ]
 }
